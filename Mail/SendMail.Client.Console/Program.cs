@@ -15,7 +15,7 @@
         private static void Main(string[] args)
         {
             Ioc.Init();
-            new SendMail("chezju@gmail.com", new[] { "chezju@gmail.com" }, "hello", "hello").Execute().Wait();
+            new SendMail("xxx@gmail.com", new[] { "xxx@gmail.com" }, "hello", "hello").Execute().Wait();
             var mails = Query.Instance.Get(m => true);
             Console.ReadLine();
         }
