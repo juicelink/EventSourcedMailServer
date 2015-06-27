@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SeedWork.EventStore</id>
+    <version>1.0.0</version>
+    <title>Seedwork eventStore</title>
+    <authors>JL</authors>
+    <owners>JL</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Seedwork eventStore</description>
+    <copyright>Copyright 2014</copyright>
+  </metadata>
+</package>

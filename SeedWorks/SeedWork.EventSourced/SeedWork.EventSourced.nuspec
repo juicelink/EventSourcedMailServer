@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SeedWork.EventSourced</id>
+    <version>1.0.0</version>
+    <title>SeedWork EventSourced</title>
+    <authors>JL</authors>
+    <owners>JL</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SeedWork EventSourced</description>
+    <copyright>Copyright 2014</copyright>
+  </metadata>
+</package>

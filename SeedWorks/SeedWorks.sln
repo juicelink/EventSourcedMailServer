@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedWork.EventStore", "SeedWork.EventStore\SeedWork.EventStore.csproj", "{AF799539-7F89-42AB-A9CE-793D03B30CB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{75AC119D-D850-4DBF-9F87-EC59A8AE8F70}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedWork.EventSourced", "SeedWork.EventSourced\SeedWork.EventSourced.csproj", "{828509B6-9A13-4969-AD6C-462A1FCB5C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedWork.Utils", "SeedWork.Utils\SeedWork.Utils.csproj", "{A56FAE74-0FC0-4586-A544-CCEA4EE30CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedWork.Log4Net", "SeedWork.Log4Net\SeedWork.Log4Net.csproj", "{9892EFE5-6334-4A94-9EB4-76CACD63711A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedWork.EventSourced.EventStore", "SeedWork.EventSourced.EventStore\SeedWork.EventSourced.EventStore.csproj", "{0B1DEF0E-0976-4570-A6E5-FE7EFE0D7FBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF799539-7F89-42AB-A9CE-793D03B30CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF799539-7F89-42AB-A9CE-793D03B30CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF799539-7F89-42AB-A9CE-793D03B30CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF799539-7F89-42AB-A9CE-793D03B30CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828509B6-9A13-4969-AD6C-462A1FCB5C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828509B6-9A13-4969-AD6C-462A1FCB5C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828509B6-9A13-4969-AD6C-462A1FCB5C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828509B6-9A13-4969-AD6C-462A1FCB5C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56FAE74-0FC0-4586-A544-CCEA4EE30CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56FAE74-0FC0-4586-A544-CCEA4EE30CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56FAE74-0FC0-4586-A544-CCEA4EE30CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56FAE74-0FC0-4586-A544-CCEA4EE30CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9892EFE5-6334-4A94-9EB4-76CACD63711A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9892EFE5-6334-4A94-9EB4-76CACD63711A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9892EFE5-6334-4A94-9EB4-76CACD63711A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9892EFE5-6334-4A94-9EB4-76CACD63711A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1DEF0E-0976-4570-A6E5-FE7EFE0D7FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1DEF0E-0976-4570-A6E5-FE7EFE0D7FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1DEF0E-0976-4570-A6E5-FE7EFE0D7FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1DEF0E-0976-4570-A6E5-FE7EFE0D7FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

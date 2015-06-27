@@ -1,0 +1,12 @@
+﻿EventStore.SingleNode.exe --db=.\db --log=.\log --run-projections=all
+
+var link = function(s,e){ linkTo('SendMail.Events.MailView',e);};
+
+    fromAll() 
+
+    .when({
+        SendMail_MailSent: link,
+        SendMail_MailRequested: link,
+        SendMail_MailFailed: link,
+        SendMail_MailRetried: link
+    });
