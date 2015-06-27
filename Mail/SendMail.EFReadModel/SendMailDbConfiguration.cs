@@ -14,13 +14,13 @@ namespace SendMail.EFReadModel
     public class SendMailDbConfiguration : DbConfiguration
     {
         private Type _Hack = typeof (System.Data.Entity.SqlServer.SqlProviderServices);
-        
+
         #region Constructors and Destructors
 
         public SendMailDbConfiguration()
         {
             this.SetDatabaseInitializer(new CreateDatabaseIfNotExists<SendMailContext>());
-            this.SetDefaultConnectionFactory(new SqlConnectionFactory(@"Data Source=CMAPPA1287DEV\IS_CRMFINTRN_DEV;Initial Catalog=SendMail;Integrated Security=SSPI;"));
+            this.SetDefaultConnectionFactory(new SqlConnectionFactory(@"Data Source=INSTANCE\SERVER;Initial Catalog=SendMail;Integrated Security=SSPI;"));
         }
 
         #endregion
